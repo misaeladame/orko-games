@@ -12,7 +12,7 @@ URL                     : localhost/orko
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale-1">
-    <title>Tienda Orko</title>
+    <title>Orko Games</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -63,8 +63,8 @@ URL                     : localhost/orko
             <div class="navbar-header"> <!-- Inicia navbar-header -->
                 <a href="index.php" class="navbar-brand home">
 
-                    <img src="imagenes/ecom-store-logo.png" alt="Tienda Orko" class="hidden-xs">  
-                    <img src="imagenes/ecom-store-logo-mobile.png" alt="Tienda Orko móvil" class="visible-xs">  
+                    <img src="imagenes/orko-games-logo.png" alt="Logo Orko">  
+                    
 
                 </a>
 
@@ -297,16 +297,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-1.jpg" alt="Producto 1">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-1.jpg" alt="Producto 1">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 No Game No Life 
                             </a>
                         </h3>
@@ -314,10 +314,10 @@ URL                     : localhost/orko
                         <p class="price">$50</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -335,16 +335,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-2.jpg" alt="Producto 2">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-2.jpg" alt="Producto 2">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 Dirt 3 para PS3
                             </a>
                         </h3>
@@ -352,10 +352,10 @@ URL                     : localhost/orko
                         <p class="price">$50</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -373,27 +373,27 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-3.jpg" alt="Producto 3">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-3.jpg" alt="Producto 3">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
-                                Una flor mamalona
+                            <a href="detalles.php">
+                                Una flor mística
                             </a>
                         </h3>
 
                         <p class="price">$5000</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -411,16 +411,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-1.jpg" alt="Producto 1">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-1.jpg" alt="Producto 1">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 Cartas de NGNL 
                             </a>
                         </h3>
@@ -428,10 +428,10 @@ URL                     : localhost/orko
                         <p class="price">$300</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -449,16 +449,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-1.jpg" alt="Producto 1">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-1.jpg" alt="Producto 1">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 No Game No Life 
                             </a>
                         </h3>
@@ -466,10 +466,10 @@ URL                     : localhost/orko
                         <p class="price">$50</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -487,16 +487,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-2.jpg" alt="Producto 2">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-2.jpg" alt="Producto 2">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 Dirt 3 para PS3
                             </a>
                         </h3>
@@ -504,10 +504,10 @@ URL                     : localhost/orko
                         <p class="price">$50</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -525,27 +525,27 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-3.jpg" alt="Producto 3">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-3.jpg" alt="Producto 3">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
-                                Una flor mamalona
+                            <a href="detalles.php">
+                                Una flor mística
                             </a>
                         </h3>
 
                         <p class="price">$5000</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 
@@ -563,16 +563,16 @@ URL                     : localhost/orko
 
                 <div class="product">
 
-                    <a href="details.php">
+                    <a href="detalles.php">
 
-                        <img class="img-responsive" src="admin_area/product_images/producto-1.jpg" alt="Producto 1">
+                        <img class="img-responsive" src="admin_area/imagenes_productos/producto-1.jpg" alt="Producto 1">
 
                     </a>
 
                     <div class="text">
 
                         <h3>
-                            <a href="details.php">
+                            <a href="detalles.php">
                                 Cartas de NGNL 
                             </a>
                         </h3>
@@ -580,10 +580,10 @@ URL                     : localhost/orko
                         <p class="price">$300</p>
                         <p class="button">
 
-                            <a href="details.php" class="btn btn-default">Ver detalles</a>
-                            <a href="details.php" class="btn btn-primary">
+                            <a href="detalles.php" class="btn btn-default">Ver detalles</a>
+                            <a href="detalles.php" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-carrito">
+                                <i class="fa fa-shopping-cart">
                                     Añadir al carrito
                                 </i>
 

@@ -53,7 +53,7 @@
                     <br/>Av. Hidalgo
                     <br/>Col. Centro
                     <br/>8712755372
-                    <br/>orko.games@gmail.com
+                    <br/>tienda.orko@gmail.com
                     <br/><strong>Nestor</strong>
 
                 </p>
@@ -79,7 +79,7 @@
 
                         <span class="input-group-btn">
 
-                            <input type="submit" value="subscribe" class="btn btn-default">
+                            <input type="submit" value="Suscribete" class="btn btn-default">
 
                         </span>
 
@@ -92,8 +92,6 @@
 
                 <p class="social">
                     <a href="https://es-la.facebook.com/OrkoGames/" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
                 </p>
 
             </div>
@@ -108,3 +106,4 @@
 
     </div>
 </div> <!--  Termina #copyright-->
+

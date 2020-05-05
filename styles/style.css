@@ -237,6 +237,92 @@ body {
     color: rgb(85, 85, 85);
 }
 
+/* breadcrumb Styles */
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumb> li + li:before {
+    content: ">\00a0";
+    color: #cccccc;
+}
+
+@media(max-width:991px) {
+    .breadcrumb {
+        padding: 8px 0px;
+        text-align: center;
+    }
+}
+
+/*  Categorías de productos y sagas styles */
+#contenido .panel.sidebar-menu {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#contenido .panel.sidebar-menu ul.nav.category-menu {
+    margin-bottom: 20px;
+}
+
+#contenido .panel.sidebar-menu ul.nav.category-menu li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#contenido .panel.sidebar-menu h3 {
+    padding: 5px;
+    margin: 0px;
+}
+
+/* Productos de la tienda styles */
+
+@media(max-width: 768px) {
+    .center-responsive {
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 550px) {
+    .center-responsive {
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+/* Detalles.php styles */
+
+#contenido #productoPrincipal {
+    margin-bottom: 30px;
+}
+
+#contenido #productoPrincipal .price {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contenido #imagenPrincipal {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+#contenido #thumbs a {
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+    border: 2px solid transparent;
+}
+
+
+#contenido .headline {
+    /*height: 305px;*/
+    height: 310px;
+}
+
 /* Fotter styles */
 
 #footer {
@@ -285,7 +371,6 @@ body {
 }
 
 /* Copyright styles */
-
 #copyright {
     background: #333333;
     color: #cccccc;
@@ -297,3 +382,4 @@ body {
     margin: 0;
     text-align: center;
 }
+
