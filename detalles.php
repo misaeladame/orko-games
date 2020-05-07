@@ -252,19 +252,19 @@
                         <div class="row" id="thumbs">
 
                             <div class="col-xs-4">
-                                <a href="#" class="thumb">
+                                <a data-target="#miCarousel" data-slide-to="0" href="#" class="thumb">
                                     <img src="admin_area/imagenes_productos/producto-1.jpg" alt="Producto 1" class="img-responsive">
                                 </a>
                             </div>
 
                             <div class="col-xs-4">
-                                <a href="#" class="thumb">
+                                <a data-target="#miCarousel" data-slide-to="1" href="#" class="thumb">
                                     <img src="admin_area/imagenes_productos/producto-2.jpg" alt="Producto 2" class="img-responsive">
                                 </a>
                             </div>
 
                             <div class="col-xs-4">
-                                <a href="#" class="thumb">
+                                <a data-target="#miCarousel" data-slide-to="2" href="#" class="thumb">
                                     <img src="admin_area/imagenes_productos/producto-3.jpg" alt="Producto 3" class="img-responsive">
                                 </a>
                             </div>

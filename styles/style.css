@@ -317,10 +317,68 @@ body {
     border: 2px solid transparent;
 }
 
-
 #contenido .headline {
     /*height: 305px;*/
     height: 310px;
+}
+
+/* carrito.php styles */
+
+#contenido #carrito .table tbody tr td img {
+    width: 50px;
+}
+
+#contenido #carrito .table tbody tr td input {
+    width: 40px;
+    text-align: right;
+}
+
+#contenido #carrito .table tbody tr td {
+    vertical-align: middle;
+}
+
+#contenido #carrito .table tfoot {
+    font-size: 18px;
+}
+
+.box .box-footer {
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+.box .box-footer:before,
+.box .box-footer:after {
+    content: "";
+    display: table;
+}
+
+.box .box-footer:after {
+    clear: both;
+}
+
+.box .box-header {
+    background-color: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+#contenido #resumen-de-pedido table {
+    margin-top: 20px;
+}
+
+#contenido #resumen-de-pedido table td {
+    color: #999999;
+}
+
+#contenido #resumen-de-pedido table tr.total td,
+#contenido #resumen-de-pedido table tr.total th
+{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 700;
 }
 
 /* Fotter styles */
