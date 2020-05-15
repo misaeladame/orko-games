@@ -31,7 +31,7 @@
                         <a href="registro_cliente.php">Registro</a>
                     </li>
                     <li>
-                        <a href="checkout.php">Mi cuenta</a>
+                        <a href="cliente/mi_cuenta.php">Mi cuenta</a>
                     </li>
                     <li>
                         <a href="carrito.php">Ir al carrito</a>
@@ -84,7 +84,7 @@
                             <a href="tienda.php">Tienda</a>
                         </li>
                         <li>
-                            <a href="checkout.php">Mi cuenta</a>
+                            <a href="cliente/mi_cuenta.php">Mi cuenta</a>
                         </li>
                         <li>
                             <a href="carrito.php">Carrito de compras</a>
@@ -236,7 +236,7 @@
 
                                 <button type="submit" name="enviar" class="btn btn-primary">
 
-                                    <i class="fa fa-user-md"></i> Enviar mensaje
+                                    <i class="fa fa-user-md"></i> Registrarse
 
                                 </button>
                                 

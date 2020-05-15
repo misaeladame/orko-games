@@ -39,7 +39,7 @@ URL                     : localhost/orko
                         <a href="registro_cliente.php">Registro</a>
                     </li>
                     <li>
-                        <a href="checkout.php">Mi cuenta</a>
+                        <a href="cliente/mi_cuenta.php">Mi cuenta</a>
                     </li>
                     <li>
                         <a href="carrito.php">Ir al carrito</a>
@@ -93,7 +93,7 @@ URL                     : localhost/orko
                             <a href="tienda.php">Tienda</a>
                         </li>
                         <li>
-                            <a href="checkout.php">Mi cuenta</a>
+                            <a href="cliente/mi_cuenta.php">Mi cuenta</a>
                         </li>
                         <li>
                             <a href="carrito.php">Carrito de compras</a>

@@ -6,10 +6,10 @@
                 <h4>Paginas</h4>
 
                 <ul>
-                    <li><a href="carrito.php">Carrito de compras</a></li>
-                    <li><a href="contacto.php">Contactanos</a></li>
-                    <li><a href="tienda.php">Tienda</a></li>
-                    <li><a href="cliente/mi_cuenta.php.php">Mi cuenta</a></li>
+                    <li><a href="../carrito.php">Carrito de compras</a></li>
+                    <li><a href="../contacto.php">Tienda</a></li>
+                    <li><a href="../tienda.php">Contactanos</a></li>
+                    <li><a href="mi_cuenta.php">Mi cuenta</a></li>
                 </ul>
 
                 <hr>
@@ -17,8 +17,8 @@
                 <h4>Sección de Usuario</h4>
 
                 <ul>
-                    <li><a href="checkout.php">Iniciar sesión</a></li>
-                    <li><a href="registro_cliente.php">Registrarse</a></li>
+                    <li><a href="../checkout.php">Iniciar sesión</a></li>
+                    <li><a href="../customer_register.php">Registrarse</a></li>
       
                 
 
@@ -61,7 +61,7 @@
                 <a href="contact.php">Checa nuestra página de contacto</a>
 
                 <hr class="hidden-md hidden-lg">
-           
+
             </div>
 
             <div class="col-sm-6 col-md-3">
@@ -101,7 +101,7 @@
 
 <div id="copyright"> <!--  Inicia #copyright-->
     <div class="container">
-         
+
         <p>&copy; 2020 Orko Games Inc. Todos los derechos reservados.</p>
 
     </div>

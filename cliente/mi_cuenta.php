@@ -28,16 +28,16 @@
                 <ul class="menu">
                 
                     <li>
-                        <a href="registro_cliente.php">Registro</a>
+                        <a href="../registro_cliente.php">Registro</a>
                     </li>
                     <li>
-                        <a href="cliente/mi_cuenta.php">Mi cuenta</a>
+                        <a href="../checkout.php">Mi cuenta</a>
                     </li>
                     <li>
-                        <a href="carrito.php">Ir al carrito</a>
+                        <a href="../carrito.php">Ir al carrito</a>
                     </li>
                     <li>
-                        <a href="checkout.php">Iniciar sesión</a>
+                        <a href="../checkout.php">Iniciar sesión</a>
                     </li>
 
                 </ul> <!-- Termina menú -->
@@ -53,7 +53,7 @@
         <div class="container"> <!-- Inicia container -->
 
             <div class="navbar-header"> <!-- Inicia navbar-header -->
-                <a href="index.php" class="navbar-brand home">
+                <a href="../index.php" class="navbar-brand home">
 
                     <img src="imagenes/orko-games-logo.png" alt="Logo Orko">   
 
@@ -78,19 +78,19 @@
                     <ul class="nav navbar-nav left">
 
                         <li>
-                            <a href="index.php">Inicio</a>
+                            <a href="../index.php">Inicio</a>
                         </li>
                         <li>
-                            <a href="tienda.php">Tienda</a>
-                        </li>
-                        <li>
-                            <a href="cliente/mi_cuenta.php">Mi cuenta</a>
-                        </li>
-                        <li>
-                            <a href="carrito.php">Carrito de compras</a>
+                            <a href="../tienda.php">Tienda</a>
                         </li>
                         <li class="active">
-                            <a href="contacto.php">Contactanos</a>
+                            <a href="mi_cuenta.php">Mi cuenta</a>
+                        </li>
+                        <li>
+                            <a href="../carrito.php">Carrito de compras</a>
+                        </li>
+                        <li>
+                            <a href="../contacto.php">Contactanos</a>
                         </li>
 
                     </ul> <!-- Termina nav navbar-nav left -->
@@ -153,7 +153,7 @@
                         <a href="index.php">Inicio</a>
                     </li>
                     <li>
-                        Contactanos
+                        Mi cuenta
                     </li>
                 
                 </ul>
@@ -171,64 +171,46 @@
             </div>
 
             <div class="col-md-9">
-
                 <div class="box">
+                    <?php   
+                    if (isset($_GET['mis_ordenes'])) {
+                        include("mis_ordenes.php");
+                    }
+                    ?>
 
-                    <div class="box-gea">
+                    <?php   
 
-                        <center>
+                    if (isset($_GET['pagar_offline'])) {
+                        include("pagar_offline.php");
+                    }
 
-                            <h2> Sientete libre de contactarnos </h2>
+                    ?>
 
-                            <p class="text-muted">
+                    <?php   
 
-                                Si tienes alguna pregunta, sintete libre de contactarnos. Nuestro servicio al cliente es eficaz
-    
-                            </p>
+                    if (isset($_GET['editar_cuenta'])) {
+                        include("editar_cuenta.php");
+                    }
 
-                        </center>
+                    ?>
 
-                        <form action="contacto.php" method="post">
+                    <?php   
 
-                            <div class="form-group">
+                    if (isset($_GET['cambiar_contrasenia'])) {
+                        include("cambiar_contrasenia.php");
+                    }
 
-                                <label>Nombre</label>
+                    ?>
 
-                                <input type="text" class="form-control" name="nombre" required>
-                            </div>
-                            <div class="form-group">
+                    <?php   
 
-                                <label>Email</label>
+                    if (isset($_GET['borrar_cuenta'])) {
+                        include("borrar_cuenta.php");
+                    }
 
-                                <input type="text" class="form-control" name="email" required>
-                            </div>
-                            <div class="form-group">
+                    ?>
 
-                                <label>Asunto</label>
-
-                                <input type="text" class="form-control" name="asunto" required>
-                            </div>
-                            <div class="form-group">
-
-                                <label>Mensaje</label>
-
-                                <textarea name="mensaje" class="form-control"></textarea>
-                            </div>
-                            <div class="text-center">
-
-                                <button type="submit" name="enviar" class="btn btn-primary">
-
-                                    <i class="fa fa-user-md"></i> Enviar mensaje
-
-                                </button>
-
-                            </div>
-
-                        </form>
-
-                    </div>
-
-                </div>  
+                </div>
 
             </div>
         </div>

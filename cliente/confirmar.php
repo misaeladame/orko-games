@@ -28,16 +28,16 @@
                 <ul class="menu">
                 
                     <li>
-                        <a href="registro_cliente.php">Registro</a>
+                        <a href="../registro_cliente.php">Registro</a>
                     </li>
                     <li>
-                        <a href="cliente/mi_cuenta.php">Mi cuenta</a>
+                        <a href="../checkout.php">Mi cuenta</a>
                     </li>
                     <li>
-                        <a href="carrito.php">Ir al carrito</a>
+                        <a href="../carrito.php">Ir al carrito</a>
                     </li>
                     <li>
-                        <a href="checkout.php">Iniciar sesión</a>
+                        <a href="../checkout.php">Iniciar sesión</a>
                     </li>
 
                 </ul> <!-- Termina menú -->
@@ -78,19 +78,19 @@
                     <ul class="nav navbar-nav left">
 
                         <li>
-                            <a href="index.php">Inicio</a>
+                            <a href="../index.php">Inicio</a>
                         </li>
                         <li>
-                            <a href="tienda.php">Tienda</a>
-                        </li>
-                        <li>
-                            <a href="cliente/mi_cuenta.php">Mi cuenta</a>
-                        </li>
-                        <li>
-                            <a href="carrito.php">Carrito de compras</a>
+                            <a href="../tienda.php">Tienda</a>
                         </li>
                         <li class="active">
-                            <a href="contacto.php">Contactanos</a>
+                            <a href="mi_cuenta.php">Mi cuenta</a>
+                        </li>
+                        <li>
+                            <a href="../carrito.php">Carrito de compras</a>
+                        </li>
+                        <li>
+                            <a href="../contacto.php">Contactanos</a>
                         </li>
 
                     </ul> <!-- Termina nav navbar-nav left -->
@@ -153,7 +153,7 @@
                         <a href="index.php">Inicio</a>
                     </li>
                     <li>
-                        Contactanos
+                        Mi cuenta
                     </li>
                 
                 </ul>
@@ -174,63 +174,62 @@
 
                 <div class="box">
 
-                    <div class="box-gea">
+                    <h1 align="center"> Por favor, confirma tu pago </h1>
 
-                        <center>
+                    <form action="confirmar.php" method="post" enctype="multipart/from-data">
+                
+                        <div class="form-group">
 
-                            <h2> Sientete libre de contactarnos </h2>
+                            <label> Factura No: </label>
+                    
+                            <input type="text" class="form-control" name="factura_no" required>
+                        </div>
+                        <div class="form-group">
 
-                            <p class="text-muted">
+                            <label> Cantidad enviada: </label>
+                    
+                            <input type="text" class="form-control" name="cantidad_enviada" required>
+                        </div>
+                        <div class="form-group">
 
-                                Si tienes alguna pregunta, sintete libre de contactarnos. Nuestro servicio al cliente es eficaz
-    
-                            </p>
+                            <label> Seleccione el modo de pago: </label>
+                    
+                            <select name="modo_de_pago" class="form-control">
 
-                        </center>
+                                <option> Seleccionar el modo de pago: </option>
+                                <option> Transferencia Bancaria </option>
+                                <option> Código </option>
+                                <option> Tarjeta de crédito</option>
+                                <option> Weex </option>
 
-                        <form action="contacto.php" method="post">
+                            </select>
+                        </div>
+                        <div class="form-group">
 
-                            <div class="form-group">
+                            <label> Transaccion / Referencia: </label>
+                    
+                            <input type="text" class="form-control" name="ref_no" required>
+                        </div>
+                        <div class="form-group">
 
-                                <label>Nombre</label>
+                            <label> Fecha de pago: </label>
+                    
+                            <input type="text" class="form-control" name="fecha" required>
+                        </div>
+                        <div class="text-center">
 
-                                <input type="text" class="form-control" name="nombre" required>
-                            </div>
-                            <div class="form-group">
+                            <button class="btn btn-primary btn-lg">
 
-                                <label>Email</label>
+                                <i class="fa fa-user-md"></i> Confirmar pago
 
-                                <input type="text" class="form-control" name="email" required>
-                            </div>
-                            <div class="form-group">
+                            </button>
 
-                                <label>Asunto</label>
-
-                                <input type="text" class="form-control" name="asunto" required>
-                            </div>
-                            <div class="form-group">
-
-                                <label>Mensaje</label>
-
-                                <textarea name="mensaje" class="form-control"></textarea>
-                            </div>
-                            <div class="text-center">
-
-                                <button type="submit" name="enviar" class="btn btn-primary">
-
-                                    <i class="fa fa-user-md"></i> Enviar mensaje
-
-                                </button>
-
-                            </div>
-
-                        </form>
-
-                    </div>
-
-                </div>  
+                        </div>
+                    </form>
+                </div>
 
             </div>
+
         </div>
 
     </div> <!-- Termina #contenido  -->
@@ -248,3 +247,5 @@
 
 </body>
 </html>
+
+        
